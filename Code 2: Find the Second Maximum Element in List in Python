@@ -1,5 +1,5 @@
-data = [34,90,20,48,23,90,23] # Sol is 48
-new_set = set(data) # To remove the repeated element
-new_list = list(new_set) # Converting set to list
-new_list.sort() # Sort the List
-print(new_list[-2]) # Print the second last element
+data = [34,90,20,48,23,90,23] #Sol is 48
+new_set = set(data) #To remove the repeated element
+new_list = list(new_set) #Converting set to list
+new_list.sort() #Sort the List
+print(new_list[-2]) #Print the second last element
