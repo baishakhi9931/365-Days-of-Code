@@ -1,0 +1,11 @@
+# Find the common words occurring in two strings
+text1 = "Welcome to India"
+text2 = "Welcome to Hyderabad"
+
+text1_split = text1.split()
+text2_split = text2.split()
+common_words = []
+for each in text1_split:
+    if each in text2_split:
+        common_words.append(each)
+print(common_words)
