@@ -1,0 +1,8 @@
+# Find the duplicate elements from a list
+data = [34,90,20,48,23,90,23] # Sol is [23,90]
+repeated_list = []
+for each in data:
+    if each not in repeated_list:
+        if data.count(each) &gt; 1:
+            repeated_list.append(each)
+print(repeated_list)
