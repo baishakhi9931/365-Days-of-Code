@@ -1,9 +1,9 @@
-# Count of unique elements
+#Count of unique elements
 data = [34,90,20,48,23,90,23] # Sol is 5
-# Method 1
+#Method 1
 print(len(set(data)))
 
-# Method 2
+#Method 2
 unique_list = []
 for each in data:
     if each not in unique_list:
