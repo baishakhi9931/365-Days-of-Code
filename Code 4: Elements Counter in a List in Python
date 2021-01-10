@@ -1,0 +1,9 @@
+# Find Elements counter
+data = [34,90,20,48,23,90,23] # Sol is {34: 1, 90: 2, 20: 1, 48: 1, 23: 2}
+counter_dict = {}
+for each in data:
+    if each in counter_dict.keys(): # Check if this key exist 
+        counter_dict[each] += 1
+    else:
+        counter_dict[each] = 1
+print(counter_dict)
