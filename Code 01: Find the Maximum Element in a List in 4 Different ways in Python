@@ -14,6 +14,6 @@ for i in range(len(data)):
         max_num2 = data[i]
 print("Max Num2 is", max_num2)
 
-# Sort the list
+#Sort the list
 data.sort()
 print("Max by sorting",data[-1])
