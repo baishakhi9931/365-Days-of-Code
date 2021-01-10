@@ -1,0 +1,19 @@
+We are going to find maximum elements in a list in 4 different ways.
+data = [34,90,20,48,23]
+print("Max is ", max(data))
+
+max_num1 = data[0]
+for each in data:
+    if each &gt; max_num1:
+        max_num1 = each
+print("Max Num1 is", max_num1)
+
+max_num2 = data[0]
+for i in range(len(data)):
+    if data[i] &gt; max_num2:
+        max_num2 = data[i]
+print("Max Num2 is", max_num2)
+
+# Sort the list
+data.sort()
+print("Max by sorting",data[-1])
