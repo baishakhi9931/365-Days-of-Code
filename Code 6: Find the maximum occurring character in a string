@@ -1,0 +1,10 @@
+# Find the maximum occuring character in a string
+text = "Hello World"
+char_dict = {}
+for each in text:
+    if each in char_dict.keys():
+        char_dict[each] += 1
+    else:
+        char_dict[each] = 1
+print(char_dict)
+print("Max is", max(char_dict, key=char_dict.get))
