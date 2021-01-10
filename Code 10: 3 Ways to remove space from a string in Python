@@ -1,0 +1,16 @@
+# Python Program to remove space from a string
+string = "Hello, This is Mayank Gupta, and I run Code House"
+# Method 1
+new_string_1 = string.replace(" ","")
+print("Sol 1 - ", new_string_1)
+
+# Method 2
+new_string_2 = "".join(string.split())
+print("Sol 2 - ", new_string_2)
+
+# Method 3
+new_string_3 = ""
+for each in string:
+    if each != " ":
+        new_string_3 += each
+print("Sol 3 - ", new_string_3)
