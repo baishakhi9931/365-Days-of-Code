@@ -1,0 +1,8 @@
+def check_palindrom(number):
+    str_num = str(number)
+    if str_num == str_num[::-1]:
+        return "Palindrome"
+    else:
+        return "Not Palindrome"
+print(check_palindrom(1331))
+print(check_palindrom(1337))
