@@ -1,4 +1,4 @@
-# Find the duplicate elements from a list
+#Find the duplicate elements from a list
 data = [34,90,20,48,23,90,23] # Sol is [23,90]
 repeated_list = []
 for each in data:
