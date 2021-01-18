@@ -1,0 +1,4 @@
+string= "Hello I am Baishakhi"
+string_list= string.split()
+print(string_list)
+print("total number of words is", len(string_list))
