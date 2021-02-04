@@ -1,0 +1,7 @@
+string = "Hello, This is Baishakhi"
+vowels = ['a','e','i','o','u']
+new_string = ""
+for each in string:
+    if each.lower() not in vowels:
+        new_string += each
+print(new_string)
