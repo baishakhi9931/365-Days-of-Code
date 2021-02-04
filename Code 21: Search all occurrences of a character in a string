@@ -1,0 +1,20 @@
+# Search all occurrences of a character in a string.
+"""
+Input Format:
+String
+Character to search
+
+Sample Input:
+This is Code House
+s
+
+Output:
+[3,6,16]
+"""
+string = input("Enter the string: ")
+char = input("Enter the character to search")
+index_list = []
+for i in range(len(string)):
+    if string[i] == char:
+        index_list.append(i)
+print(index_list)
