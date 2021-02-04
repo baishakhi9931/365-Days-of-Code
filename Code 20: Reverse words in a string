@@ -1,0 +1,11 @@
+INPUT:
+This is Mayank Gupta
+
+OUTPUT:
+Gupta Mayank is This
+"""
+string = "This is Code House"
+splitted_word = string.split() # ['This', 'is', 'Code', 'House']
+reverse_words = splitted_word[::-1] # ['House', 'Code', 'is', 'This']
+reversed_string = " ".join(reverse_words)
+print(reversed_string) # House Code is This
