@@ -1,0 +1,19 @@
+Input Format
+N (Length of Array)
+Value1 
+Value2 
+Value3 
+......
+
+Sample Input:
+4
+83 
+84 
+85 
+86
+"""
+N = int(input()) # Length of Array
+values = []
+for i in range(N):
+    values.append(int(input()))
+print(values)
