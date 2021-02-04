@@ -1,0 +1,11 @@
+# 1. To nearest 10
+number = 556 # Output - 560
+print(round(number,-1)) # -1 for nearest 10, -2 for 100, -3 for 1000
+
+# 2. To nearest 100
+number2 = 9838 # Output - 9800
+print(round(number2, -2))
+
+# 3. To nearest 1000
+number3 = 64838 # Output - 65000
+print(round(number3, -3))
