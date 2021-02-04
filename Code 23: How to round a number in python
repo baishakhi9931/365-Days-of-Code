@@ -1,0 +1,6 @@
+# First take a float value
+number = 8.987 # 9
+print(round(number))
+
+number2 = 4.167 # 4
+print(round(number2))
