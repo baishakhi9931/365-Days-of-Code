@@ -1,0 +1,10 @@
+string = "Hello, This is Baishakhi"
+consonants = "bcdfghjklmnpqrstvwxyz"
+vowels = "aeiou"
+consonant_number = vowel_number =  0
+for each in string:
+    if each.lower() in consonants:
+        consonant_number += 1
+    elif each.lower() in vowels:
+        vowel_number += 1
+print("Consonant -", consonant_number,", vowels -", vowel_number)
