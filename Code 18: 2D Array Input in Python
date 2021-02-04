@@ -1,0 +1,23 @@
+Input Format
+R C (Number of Rows and Columns)
+Value11 Value12 Value13 ......
+Value21 Value22 Value23 ......
+Value31 Value32 Value33 ......
+....... ....... ....... ......
+
+Sample Input:
+4 2
+Uttar Pradesh
+West Bengal
+New Delhi
+Madhya Pradesh
+"""
+# Taking the values of R and C.
+R_and_C = input().split() # "4 2"
+R = int(R_and_C[0]) # 4
+C = int(R_and_C[1]) # 2, But we will not use this value.
+
+values = []
+for i in range(R):
+    values.append(input().split())
+print(values)
