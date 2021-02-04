@@ -1,0 +1,24 @@
+Input Format
+R C (Number of Rows and Columns)
+Value11 Value12 Value13 ......
+Value21 Value22 Value23 ......
+Value31 Value32 Value33 ......
+....... ....... ....... ......
+
+Sample Input:
+4 2
+50 51
+60 61
+70 71
+80 81
+"""
+# Taking value of R and C
+R_and_C = input().split() # "4 2"
+R = int(R_and_C[0]) # 4
+C = int(R_and_C[1]) # 2, but we will not use value of C
+
+values = []
+for i in range(R):
+    value_input = list(map(int, input().split())) # Splitting the string to array (Space Separated), then converting each element from string to integer.
+    values.append(value_input)
+print(values)
