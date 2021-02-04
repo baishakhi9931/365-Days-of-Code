@@ -1,0 +1,4 @@
+N = int(input()) # Length of Array, but we will not use it.
+Value_input = input().strip().split() # This will break from spaces, but number will be as string. 
+Integer_values = list(map(int, Value_input)) # We converted each element of array into integer.
+print(Integer_values)
