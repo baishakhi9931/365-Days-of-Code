@@ -1,0 +1,10 @@
+The math.ceil() method rounds a number UP to the nearest integer.
+ceil of 7.9 will be 8. 
+ceil of 19.1 will be 20. 
+ceil of -7.3 will be -7. 
+
+Code -
+import math # Import the math module
+print(math.ceil(8.3)) # 9
+print(math.ceil(16.9)) # 17
+print(math.ceil(-16.9)) # -16
