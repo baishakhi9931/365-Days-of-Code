@@ -1,0 +1,7 @@
+# 1. Upto 2 decimals
+number = 5.934 # 5.93
+print(round(number, 2))
+
+# 2. Upto 3 decimals
+number2 = 9.2386 # 9.239
+print(round(number2, 3))
