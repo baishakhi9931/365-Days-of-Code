@@ -1,0 +1,4 @@
+N = int(input()) # Length of Array (But we will not use it)
+values = input().strip().split()
+print(values)
+# So, we have no use of N because we splitted the complete string.
