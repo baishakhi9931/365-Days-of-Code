@@ -1,0 +1,11 @@
+def check_number(number):
+    if number == 0:
+        print("Zero")
+    elif number &lt; 0:
+        print("Negative")
+    else:
+        print("Positive")
+
+check_number(25)
+check_number(-34)
+check_number(0)
