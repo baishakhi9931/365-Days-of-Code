@@ -1,0 +1,11 @@
+The math.trunc() method returns the truncated integer part of a number.
+It simply remove the decimals part.
+Ex - trunc of 7.9 will be 7. 
+Ex - trunc of 19.1 will be 19. 
+Ex - trunc of -7.3 will be -7. 
+
+Code - 
+import math # Import the math module
+print(math.trunc(7.9)) # 7
+print(math.trunc(19.1)) # 19
+print(math.trunc(-7.3)) # -7
