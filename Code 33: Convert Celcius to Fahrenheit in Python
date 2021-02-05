@@ -1,0 +1,8 @@
+# Python program to convert Celsius to Fahrenheit.
+# Formula: fahrenheit = celsius * 1.8 + 32
+
+def convert(celsius):
+    fahrenheit = (celsius * 1.8) + 32
+    return fahrenheit
+print(convert(37))
+print(convert(0))
