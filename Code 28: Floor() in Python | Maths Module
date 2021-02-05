@@ -1,0 +1,10 @@
+The math.floor() method rounds a number DOWN to the nearest integer.
+Ex - floor of 7.9 will be 7. 
+Ex - floor of 19.1 will be 19. 
+Ex - floor of -7.3 will be -8. 
+
+Code -
+import math # Import the math module
+print(math.floor(7.9)) # 7
+print(math.floor(19.1)) # 19
+print(math.floor(-7.3)) # -8
