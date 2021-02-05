@@ -1,0 +1,9 @@
+# floor() method rounds a number DOWN to the nearest integer.
+# trunc() simply remove the decimals part.
+import math 
+print(math.floor(8.9))  # Output is 8
+print(math.trunc(8.9))  # Output is also 8
+# But
+print(math.floor(-8.9))  # Output is -9
+print(math.trunc(-8.9))  # Output is -8
+# Let's run
