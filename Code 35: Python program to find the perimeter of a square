@@ -1,0 +1,3 @@
+def perimeter(side):
+    return side * 4
+print(perimeter(5)) 
