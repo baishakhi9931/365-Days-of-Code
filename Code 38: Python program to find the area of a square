@@ -1,0 +1,7 @@
+# Formula: Area = side X side
+
+def area(side):
+    return side * side
+
+print(area(5)) # 25
+print(area(6)) # 36
