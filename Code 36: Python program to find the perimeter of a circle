@@ -1,0 +1,5 @@
+# Formula: Perimeter - 2 X 3.1428 X radius
+Code - 
+def perimeter(radius):
+    return 2 * 3.14 * radius
+print(perimeter(4))
