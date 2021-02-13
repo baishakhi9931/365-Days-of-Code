@@ -1,0 +1,5 @@
+# Formula: Perimeter - 2X(l+b)
+
+def perimeter(l,b):
+    return 2*(l+b)
+print(perimeter(6,5)) # 18
