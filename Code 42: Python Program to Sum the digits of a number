@@ -1,0 +1,6 @@
+def sum_digit(number):
+    sum = 0
+    for each in str(number):
+        sum+=int(each)
+    return sum
+print(sum_digit(1234))
