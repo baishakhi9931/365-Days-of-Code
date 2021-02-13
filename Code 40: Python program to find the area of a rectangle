@@ -1,0 +1,6 @@
+# Formula: Area = l X b
+Code - 
+def area(l,b):
+    return l * b
+print(area(4,5)) # 20
+print(area(6,5)) # 30
