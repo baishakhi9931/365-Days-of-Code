@@ -1,0 +1,7 @@
+def check_neon(number):
+    num = str(number * number)
+    sum = 0
+    for each in num:
+        sum += int(each)
+    return sum == number
+print(check_neon(9))
