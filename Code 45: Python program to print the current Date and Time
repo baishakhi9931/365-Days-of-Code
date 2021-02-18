@@ -1,0 +1,9 @@
+import datetime
+curr_dt = datetime.datetime.now()
+print(curr_dt) # Complete Date and Time
+print(curr_dt.day) # Only Date
+print(curr_dt.month) # Only Month
+print(curr_dt.year) # Only Year
+print(curr_dt.hour) # Only Hour
+print(curr_dt.minute) # Only Minutes
+print(curr_dt.second) # Only Seconds
