@@ -1,0 +1,21 @@
+strftime() in Python DateTime.
+
+The strftime() method returns a string representing 
+date and time using date, time or datetime object.
+
+The strftime() method takes one or more format codes 
+as an argument and returns a formatted string based on it.
+
+Some commonly used format codes:
+%m: Month as a zero-padded decimal number.      Ex - 01,02,...12
+%d: Day of the month as a zero-padded decimal.  Ex - 01,02,...31
+%Y: Year                                        Ex - 2010,2019,...
+%H: Hour (24-hour clock) as a decimal number.   Ex - 0, 1,..,23
+%M: Minute as a zero-padded decimal number.     Ex - 00,01,..,59
+%S: Second as a zero-padded decimal number.     Ex - 00,01,..,59
+"""
+import datetime
+curr_dt = datetime.datetime.now()
+print(curr_dt)
+print(curr_dt.strftime("%m"))
+print(curr_dt.strftime("Date is %d-%m-%Y, Time is %H:%M:%S"))
