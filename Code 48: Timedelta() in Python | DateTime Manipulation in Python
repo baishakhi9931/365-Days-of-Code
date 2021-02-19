@@ -1,0 +1,12 @@
+Timedelta() in Python. timedelta() is generally used for calculating differences in dates and also can be used for date manipulations in Python. 
+
+import datetime
+date_obj = datetime.datetime.now() # Current DateTime Object
+print(date_obj)
+date_new = date_obj + datetime.timedelta(days=2) # Adding 2 days
+print(date_new)
+date_new2 = date_obj + datetime.timedelta(weeks=1) # Adding 1 week
+print(date_new2)
+# We can also use seconds, minutes, hours.
+date_new3 = date_obj + datetime.timedelta(hours=5) # Adding 5 hours
+print(date_new3)
