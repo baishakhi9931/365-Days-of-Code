@@ -1,0 +1,6 @@
+import datetime
+today_date = datetime.date.today() # Today's Date
+date_obj = datetime.date(2021, 5, 21) # 21st May, 2021 - A Date Object
+
+print(date_obj - today_date) # Output Days with Time
+print((date_obj - today_date).days) # Will only output number of days
