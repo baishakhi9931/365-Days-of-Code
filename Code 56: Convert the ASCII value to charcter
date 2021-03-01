@@ -1,1 +1,4 @@
+We can use ord() to convert ASCII value to char.
 
+ascii_value = 97
+print(chr(ascii_value))
