@@ -1,1 +1,10 @@
+Difference between find() and index() with Example.
+Both are almost the same, slightly have a difference.
+If the substring not found - 
+- find() will return -1
+- index() will raise an Error
 
+Code -
+org_string = "This is Mayank Gupta"
+print(org_string.find("Code")) # Outputs -1 -  We are searching for 'Code'.
+print(org_string.index("Code")) # Raised a Value Error.
