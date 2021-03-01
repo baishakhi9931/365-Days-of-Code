@@ -1,1 +1,6 @@
+# We can use find() and index() both for this.
 
+
+org_string = "This is Code House"
+print(org_string.find("Code")) # 8
+print(org_string.index("House")) # 13
