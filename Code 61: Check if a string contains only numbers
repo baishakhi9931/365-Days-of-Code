@@ -1,1 +1,5 @@
+string1 = "8000"
+string2 = "a432kk"
+print(string1.isnumeric()) # True
+print(string2.isnumeric()) # False
 
