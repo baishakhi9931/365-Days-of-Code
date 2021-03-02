@@ -1,1 +1,5 @@
+# We can use count() to find the number of occurence of a character in a string.
+dummy_text = "This is Code House" # 'o' is 2 times, 's' is 3 times.
+print(dummy_text.count('o'))
+print(dummy_text.count('s')) # 3
 
