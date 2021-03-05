@@ -1,1 +1,3 @@
-
+sentence = "Hello World"
+print(sentence.upper()) # For uppercase
+print(sentence.lower()) # For Lowercase
