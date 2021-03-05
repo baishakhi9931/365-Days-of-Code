@@ -1,1 +1,6 @@
-
+test_string = "    Follow our FB page    " # I've added 4 spaces on both side
+# Let's print the test_string first
+print(test_string)
+print(test_string.lstrip()) # Removing left spaces
+print(test_string.rstrip(),"end") # Removing right spaces
+print("start",test_string.strip(),"end") # This will remove from both sides
