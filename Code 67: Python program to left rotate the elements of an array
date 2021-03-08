@@ -1,1 +1,9 @@
+num_list = [1,2,3,4,5]
+r = 4 # Number of times to rotate
 
+for i in range(r):
+    first = num_list[0]
+    for j in range(len(num_list)-1):
+        num_list[j] = num_list[j + 1]
+    num_list[len(num_list) - 1] = first
+print(num_list)
