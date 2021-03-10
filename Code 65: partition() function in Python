@@ -1,1 +1,7 @@
-
+# partition() function in Python 
+# partition() splits a string on the first instance of a substring. 
+# A tuple of the split string is returned without the substring removed.
+text = "This is code house, you will learn code here"
+print(text.partition('code')) 
+# 1st output: ('This is ', 'code', ' house')
+# 2nd output: ('This is ', 'code', ' house, you will learn code here') Only splitted the first instance.
