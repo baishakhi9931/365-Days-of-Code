@@ -1,1 +1,16 @@
+import string
+all_alphabets = string.ascii_lowercase + string.ascii_uppercase # all_aphabets = "abcd....xyzABC.....XYZ"
+sentence = "Hello World"
+key = 2 # Try to encrypt with key 1. Next letter of H will be I, e will be f, l will be m
+#           Hello World
+# Key = 1:  Ifmmp Xpsme
+# Key = 2:  Jgnnq Yqtnf
 
+encr_sent = ""
+for each in sentence:
+    index = all_alphabets.find(each) # Getting the index of the alphabet, if existing in all_alphabets variable.
+    if index &gt;= 0:
+        encr_sent += all_alphabets[(index+key)%52] # Adding the key to index
+    else:
+        encr_sent += each
+print(encr_sent)
