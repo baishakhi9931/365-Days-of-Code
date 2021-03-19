@@ -1,1 +1,19 @@
+ If a number is divisible by the sum of its digits, then it will be known as a Harshad Number.
+# Ex - 156
+# Sum of digits = 12
+# 156 is divisible by 12.
+# So 156 is a harshad number
+
+number = 155
+
+def sum_of_digits(num):
+    sum = 0
+    for each in str(num):
+        sum += int(each)
+    return sum
+
+if number % sum_of_digits(number) == 0:
+    print("Harshad Number")
+else:
+    print("Not a harshad number")
 
