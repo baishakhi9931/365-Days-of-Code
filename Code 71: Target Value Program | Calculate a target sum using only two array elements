@@ -1,1 +1,16 @@
+target_value = 40
+array = [39, 29, 11, 6] 
+# Output Indexes: 1 2 
+# Explanation: 
+# 39 + 29 = 68 (Not equal to 40),
+# 39 + 11 = 50 (Not equal to 40),
+# 39 +  6 = 45 (Not equal to 40),
+# 29 + 11 = 40 (Equal to 40), (Index are 1,2) Answer.
+
+def check_sum(arr, target):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] + arr[j] == target:
+                return [i,j]
+print(check_sum(array, target_value)) # 1, 2
 
